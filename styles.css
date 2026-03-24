@@ -1,13 +1,13 @@
 .list {
   background: linear-gradient(135deg, #0b4f8a 0%, #1b75bb 100%) !important;
-  border-radius: 18px !important;
-  padding: 24px !important;
+  border-radius: 16px !important;
+  padding: 18px !important;
   min-height: 220px !important;
 }
 
 .list .pan {
   color: #ffffff !important;
-  font-size: 26px !important;
+  font-size: 16px !important;
   font-weight: 700 !important;
   letter-spacing: 2px !important;
   margin-top: 24px !important;
