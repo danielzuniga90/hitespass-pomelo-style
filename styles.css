@@ -9,6 +9,30 @@
   box-shadow: 0 0 14px 0 rgba(54, 41, 183, 0.25);
 }
 
+.list > *:nth-child(1) {
+width: 98.594px;
+height: 409.638px;
+transform: rotate(-53.332deg);
+background: #0C1530;
+}
+
+
+.list > *:nth-child(2) {
+width: 43.638px;
+height: 272.794px;
+transform: rotate(-75deg);
+background: linear-gradient(345deg, #000E3D 24.8%, #2E3E7A 50%, #000E3D 68.69%);
+}
+
+
+.list > *:nth-child(3) {
+width: 64.6px;
+height: 108.83px;
+transform: rotate(-24.291deg);
+background: #0C1530;
+filter: blur(11.149999618530273px);
+}
+
 .list .pan {
   color: #ffffff !important;
   font-size: 14px !important;
