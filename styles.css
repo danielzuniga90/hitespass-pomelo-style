@@ -1,15 +1,13 @@
-.list {
-  background: #0C1530;
-  border-radius: 16px !important;
-  border: 4px solid #C2932D;
+.card {
+  background: linear-gradient(135deg, #0b4f8a 0%, #1b75bb 100%) !important;
+  border-radius: 14px !important;
   padding: 16px !important;
   min-height: 220px !important;
-  width: 360px;
-  height: 215px;
-  box-shadow: 0 0 14px 0 rgba(54, 41, 183, 0.25);
+  width: 359px;
+  height: 217px;
 }
 
-.list .pan {
+.card .pan {
   color: #ffffff !important;
   font-size: 14px !important;
   font-weight: 700 !important;
@@ -17,22 +15,20 @@
   margin-top: 14px !important;
 }
 
-.list .name,
-.list .security-code,
-.list .expiration-date {
-  color: #FFF;
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+.card .pan .copy-icon {
+  
+}
+
+.card .name,
+.card .security-code,
+.card .expiration-date {
+  color: #ffffff !important;
+  font-size: 14px !important;
+  margin-top: 14px !important;
 }
 
 .label {
-  color: #FFF;
-  font-family: Poppins;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  color: #d6e8f8 !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
 }
