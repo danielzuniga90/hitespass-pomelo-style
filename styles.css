@@ -1,4 +1,4 @@
-.list {
+.card {
   background: #0C1530;
   border-radius: 16px !important;
   border: 4px solid #C2932D;
@@ -9,7 +9,7 @@
   box-shadow: 0 0 14px 0 rgba(54, 41, 183, 0.25);
 }
 
-.list .pan {
+.card .pan {
   color: #ffffff !important;
   font-size: 14px !important;
   font-weight: 700 !important;
@@ -17,22 +17,17 @@
   margin-top: 14px !important;
 }
 
-.list .pan .copy-icon {
+.card .pan .copy-icon {
 
 }
 
-.list .name,
-.list .security-code,
-.list .expiration-date {
+.card .name,
+.card .security-code,
+.card .expiration-date {
   color: #ffffff !important;
   font-size: 14px !important;
   margin-top: 14px !important;
 }
 
-.label {
-  color: #d6e8f8 !important;
-  font-size: 12px !important;
-  font-weight: 500 !important;
-}
 
 
