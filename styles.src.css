@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.list {
+  box-sizing: border-box;
+  width: 368px;
+  height: 223px;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 92px 0 0 19px !important;
+  display: flex;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  align-content: flex-start;
+  column-gap: 32px;
+  row-gap: 13px;
+  background-color: #0C1530;
+  background-image: url('https://danielzuniga90.github.io/hitespass-pomelo-style/card_background.webp');
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  background-size: 100% 100%;
+  border: 8px solid #C2932D;
+  box-shadow: none !important;
+  border-radius: 16px !important;
+  overflow: hidden;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.list::before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  width: 114px;
+  height: 24px;
+  background: url('https://danielzuniga90.github.io/hitespass-pomelo-style/card_wordmark.svg') no-repeat center / contain;
+}
+
+.list::after {
+  content: '';
+  position: absolute;
+  left: 268px;
+  top: 159px;
+  width: 74px;
+  height: 26px;
+  background: url('https://danielzuniga90.github.io/hitespass-pomelo-style/card_brand.webp') no-repeat center / contain;
+}
+
+.list .pan,
+.list .expiration-date,
+.list .security-code {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 4px;
+  margin: 0 !important;
+  color: #ffffff !important;
+}
+
+.list .pan {
+  flex: 0 0 100%;
+}
+
+.list .expiration-date,
+.list .security-code {
+  flex: 0 0 auto;
+}
+
+.list .label {
+  margin: 0 !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  color: transparent !important;
+}
+
+.list .label::after {
+  display: block;
+  height: 18px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: normal;
+  text-transform: none;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.list .pan .label::after {
+  content: 'Tarjeta Hites número';
+}
+
+.list .expiration-date .label::after {
+  content: 'Valido hasta';
+}
+
+.list .security-code .label::after {
+  content: 'CVV';
+}
+
+.list .pan .wrapper,
+.list .expiration-date > span:not(.label),
+.list .security-code > span:not(.label) {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  line-height: 18px !important;
+  letter-spacing: normal !important;
+  white-space: nowrap;
+  color: #ffffff !important;
+}
+
+.list .pan .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  word-spacing: 2.7px;
+}
+
+.list .pan .wrapper .copy-icon {
+  box-sizing: border-box;
+  position: absolute;
+  left: 244px;
+  top: 89px;
+  width: 97px;
+  height: 62px;
+  margin: 0 !important;
+  color: transparent;
+  background-color: rgba(255, 255, 255, .1);
+  background-image: url('https://danielzuniga90.github.io/hitespass-pomelo-style/copy_all.svg');
+  background-repeat: no-repeat;
+  background-position: center 5px;
+  background-size: 24px 24px;
+  border: 1px solid #C2932D;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 120ms ease-out;
+}
+
+.list .pan .wrapper .copy-icon:active {
+  background-color: rgba(255, 255, 255, .24);
+}
+
+.list .pan .wrapper::after {
+  content: 'Copiar datos';
+  position: absolute;
+  left: 244px;
+  top: 128px;
+  width: 97px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  pointer-events: none;
+}
