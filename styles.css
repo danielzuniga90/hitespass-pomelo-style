@@ -96,7 +96,7 @@
 }
 
 .list .expiration-date .label::after {
-  content: 'Valido hasta';
+  content: 'Válido hasta';
 }
 
 .list .security-code .label::after {
